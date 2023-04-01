@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
+    private int coinCount;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        coinCount = 0;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void addCoin()
     {
-        
+        coinCount++;
     }
 }
